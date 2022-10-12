@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #4f5d80;
+    padding: 10px;
+    display: flex;
+    height: 45px;
+}
+
+.logo {
+    color: white;
+    font-size: 20px;
+    width: 50%;
+
+} 
+.logo a {
+    text-decoration: none;
+    color: #fff;
+}
+.menu {
+    position: absolute;
+    left: 0;
+    top: 40px;
+    width: 100%;
+    background-color: #3c4764;
+    text-align: center;
+}
+
+.hidden {
+    transition: 1s;
+    height: 0;
+
+}
+
+.show {
+    transition: 1s;
+    height: 150px;
+}
+
+.menu a {
+    display: inline-block;
+    padding: 10px 0;
+    text-decoration: none;
+    color: #fff;
+    font-size: 23px;
+}
+
+.menu a:hover {
+    text-decoration: underline;
+}
+
+.icon-menu {
+    width: 50%;
+    text-align: right;
+}
+
+.icon-menu > i {
+    font-size: 24px;
+    color: #fff;
+    cursor: pointer;
+
+}
